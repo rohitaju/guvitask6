@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style>
+        body{
+            background-color: lightblue;
+            font: Arial;
+            margin:0 ;
+            padding:20px;
+        }
+        form{
+            padding:30px;
+            background-color:lightred;
+            margin:50px;
+            border-radius: 8px;
+
+        }
+        h1{
+            font: sans-serif;
+            text-align:center;
+            color: #333;
+        }
+
+        h4{
+            font: sans-serif;
+            text-align:center;
+            color: #666;
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            font: sans-serif
+        }
+
+
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="url"],
+        input[type="password"],
+        input[type="date"],
+        input[type="time"],
+        input[type="color"],
+        textarea {
+            padding:10px;
+            width:100%;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+
+
+        button {
+            padding:10px 20px;
+            margin-right:10px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button[type="submit"]{
+           background-color: lightgreen;
+           color:white;
+        }
+        button[type="submit"]:hover {
+            background-color: #3cb371;
+        }
+        button[type="reset"]{
+           background-color: red;
+           color:white;
+        }
+        button[type="reset"]:hover {
+            background-color: #c82333;
+
+        }
+
+
+         .card {
+      width: 350px;
+      margin: 40px auto;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    .card h3 {
+      margin-bottom: 15px;
+      text-align: center;
+      color: #333;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    input[type="file"] {
+      width: 100%;
+    }
+table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    </style>
+</head>
+<body>
+
+<form>
+    <h1> <mark> Feel free to contact us</mark>   </h1>
+    <h4>----------------------------------------------------</h4>
+    <h4>Please Enter your details to contact us</h4>
+    <h4>----------------------------------------------------</h4>
+
+    <div class="form-group">
+        <p>Your name</p>
+        <input type="text"  placeholder="Enter your full name" required>
+    </div>
+
+    <div class="form-group">
+        <p>Email</p>
+        <input type="email" placeholder="Enter your mail address" required>
+    </div>
+
+    <div class="form-group">
+        <p>Choose your country:</p>
+        <div class="radio-group">
+            <input type="radio"  required>India
+            <input type="radio"  required>UK
+            <input type="radio" required>USA
+        </div>
+    </div>
+
+    <div class="form-group">
+        <p>Message:</p>
+        <textarea  rows="5" placeholder="Enter your message here ............." required></textarea>
+
+    </div>
+
+
+    <div class="form-group">
+        <p>Select Date:</p>
+        <input type="date" id="date" name="visit_date">
+    </div>
+
+    <div class="form-group">
+        <p>Time you visited the form:</p>
+        <input type="time">
+    </div>
+
+    <div class="form-group">
+        <p>Mobile Number:</p>
+        <input type="tel" placeholder="Enter your mobile number">
+    </div>
+
+    <div class="form-group">
+        <p>Company URL:</p>
+        <input type="url" placeholder="Enter your company website URL">
+    </div>
+
+    <div class="form-group">
+        <P>Select Gender:</P>
+        <div class="checkbox-group">
+            <input type="checkbox"> MALE
+
+            <input type="checkbox"> FEMALE
+
+            <input type="checkbox" > OTHERS
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <p>Pick your favorite color:</p>
+        <input type="color">
+    </div>
+
+    <div class="form-group">
+        <p>Enter your new password:</p>
+        <input type="password" placeholder="Enter a strong password">
+    </div>
+
+    YEARS OF EXPERIENCE: <input type="number" ><br><br>
+
+
+    Range: <input type="range"  min="0" max="100" value="75"><br><br>
+
+    File: <input type="file" name="upload"><br><br>
+
+    <button type="reset"> Reset </button>
+    <button type="submit"> Submit </button></br>
+    <a href="https://google.com"> click here to open google </a>
+
+</form></br>
+
+    <mark>HTML & CSS is awesome</mark>
+<ul><li>Programming Language</li>
+    <ul>
+    <li> Java Script</li>
+        <ol>a . Angular</ol>
+        <ol>b . React</ol>
+        <ol>c . Vue.js</ol>
+    </ul>
+    <ul>
+        <li>Python</li>
+        <ol>a . Django Framework</ol>
+        <ol>b . Flask Framework</ol>
+    </ul>
+    <ul>
+        <li>Java</li>
+        <ol>a . Spring</ol>
+        <ol>b . Maven</ol>
+        <ol>c . Hibernate</ol>
+    </ul>
+
+</ul>
+<ul><li>DataBase</li>
+    <ul>
+        <li>MySqol</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>
+    </ul>
+
+
+</ul>
+
+<div class="form-group">
+    <strong>EMPPLOYEE TYPE</strong></br>
+
+    <input type="radio">Salaried
+    <input type="radio">own business</br>
+<p><mark>
+    <a href="https://google.com"> click here to open google </a>
+</mark>
+</p>
+</div>
+
+
+
+<div>
+    <div class="card">
+        <h3>Upload Documents</h3>
+        <form>
+            <div class="form-group">
+                <label for="aadhar">Upload Aadhar Card</label>
+                <input type="file" id="aadhar" name="aadhar" accept="image/*,.pdf" required>
+            </div>
+            <div class="form-group">
+                <label for="pan">Upload PAN Card</label>
+                <input type="file" id="pan" name="pan" accept="image/*,.pdf" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+</div>
+    <table>
+        <tr>
+            <th> CUSTOMER</th>
+            <th colspan="3" > ITEMS </th>
+            <th colspan="2"> PAYMMENTS</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Customer Name</td>
+            <td>Item1</td>
+            <td>5</td>
+            <td>$400.00</td>
+            <td>12 Sep 2018</td>
+            <td>$3,000.00</td>
+        </tr>
+
+        <tr>
+            <td>Item2</td>
+            <td>10</td>
+            <td>$200.00</td>
+            <td rowspan="2">18 Sep 2018</td>
+            <td rowspan="2">$2,000.00</td>
+        </tr>
+        <tr>
+            <td>Item3</td>
+            <td>2</td>
+            <td>$500.00</td>
+        </tr>
+    </table>
+
+
+
+
+</body>
+</html>
